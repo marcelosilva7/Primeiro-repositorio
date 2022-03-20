@@ -1,0 +1,5 @@
+print('Hoje temos uma promoção imperdivel aqui no Sonda!\nCobrimos qualquer preço e ainda ganha um descontão de 5%!!!')
+produto = input('Qual produto você esta pensando? ')
+preco= float(input('Qual é o preço do produto que deseja adquirir? '))
+preco5 = preco-(preco*5/100)
+print('Sai somente hoje! A(o) {} sai de R${:.2f} pelo preço de R${:.2f}, Não perce essa oferta!!'.format(produto, preco, preco5))
