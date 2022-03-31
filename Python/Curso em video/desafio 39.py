@@ -1,4 +1,7 @@
-idade = int(input('Qual sua idade? '))
+ano_nascimento = int(input('Que ano vc nasceu? '))
+ano_atual = 2022
+idade = ano_nascimento - ano_atual
+
 
 if 18 > idade:
     tempo = 18 - idade
